@@ -309,7 +309,7 @@ Typically, the response would contain a status of INPROCESS meaning the transact
 
 # CALLBACKS
 
-Due to the asynchronous nature of the payment channels, in Pay In and Pay Out request calls, we will perform a HTTP POST to the callback URL that you specified in the request when the transaction is COMPLETED, CANCELLED or FAILED. This would return a JSON object with the format of that object being the same as the result from the original request response (Pay In Response and Pay Out Response). The callback request has `X-paymesh-authz` header for authentication verification. Contact the support team on how this header is calcualted. 
+Due to the asynchronous nature of the payment channels, in Pay In and Pay Out request calls, we will perform a HTTP POST to the callback URL that you specified in the request when the transaction is COMPLETED, CANCELLED or FAILED. This would return a JSON object with the format of that object being the same as the result from the original request response (Pay In Response and Pay Out Response). The callback request has `X-paymesh-authz` header for authentication verification. Contact the support team on how this header is calculated. 
 
 
 # QUERY APIs
