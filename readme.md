@@ -140,6 +140,7 @@ There are 2 types of responses that you may get when calling the payment API.
 |authzUrl|The URL that users should be redirected to for additional payment |actions
 |authzRef|Reference number
 |merchantTraceData|Merchant trace data
+|descriptor| Descriptor
 |resultUrl|result Url from merchant in the request
 
 
